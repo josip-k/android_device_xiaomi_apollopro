@@ -21,5 +21,9 @@ TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    DeviceParts
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/apollopro/apollopro-vendor.mk)
