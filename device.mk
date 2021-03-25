@@ -26,4 +26,4 @@ PRODUCT_PACKAGES += \
     DeviceParts
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/apollopro/apollopro-vendor.mk)
+$(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
